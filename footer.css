@@ -1,0 +1,16 @@
+h3 {
+    color: #0089E5; 
+    font-weight: 300;
+}
+
+li{
+    margin-top: 10px;
+}
+
+li:first-child {
+    margin-top:0;
+}
+
+#privacy {
+    margin-left: 5em; 
+}
