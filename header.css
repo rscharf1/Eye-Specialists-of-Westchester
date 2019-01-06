@@ -1,0 +1,14 @@
+.container-fluid img {
+    width: 250px; 
+    height: auto; 
+    margin-left: 25%;
+}
+
+.container-fluid:last-of-type .col-sm-6 {
+}
+
+@media screen and ( max-width: 500px) {
+    .container-fluid img {
+        margin-left: 0;
+    }
+}

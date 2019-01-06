@@ -14,3 +14,8 @@ li:first-child {
 #privacy {
     margin-left: 5em; 
 }
+
+.container.footer {
+    border: 1px solid black; 
+    padding-top: 30px; 
+}
