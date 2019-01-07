@@ -1,0 +1,14 @@
+.container.allergies {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.allergies li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.allergies {
+        width: 100%; 
+    }
+}

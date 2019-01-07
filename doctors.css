@@ -1,12 +1,13 @@
 #headshot {
-    width: 200px; 
-    height: 200px; 
-    border-radius: 50%; 
+    width: 200px;  
     margin-top: 5%; 
     margin-left: auto; 
     margin-right: auto; 
-    overflow: hidden;
-    border: 1px solid black; 
+}
+
+.container-fluid.scharf img {
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 .scharf {

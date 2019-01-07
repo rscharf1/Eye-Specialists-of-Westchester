@@ -1,0 +1,14 @@
+.container.contact {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.contact li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.contact {
+        width: 100%; 
+    }
+}

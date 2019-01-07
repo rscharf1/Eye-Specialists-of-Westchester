@@ -13,4 +13,9 @@ li{
 
 .container.footer {
     padding-top: 30px; 
+    padding-bottom: 30px; 
+}
+
+.container.footer ul {
+    font-size: 15px; 
 }

@@ -1,0 +1,14 @@
+.container.keratoconus {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.keratoconus li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.keratoconus {
+        width: 100%; 
+    }
+}

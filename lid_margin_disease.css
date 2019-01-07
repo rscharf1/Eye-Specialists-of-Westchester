@@ -1,0 +1,14 @@
+.container.lmd {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.lmd li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.lmd {
+        width: 100%; 
+    }
+}

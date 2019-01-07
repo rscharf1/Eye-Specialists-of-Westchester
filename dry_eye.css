@@ -1,0 +1,14 @@
+.container.dry-eye {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.dry-eye li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.dry-eye {
+        width: 100%; 
+    }
+}

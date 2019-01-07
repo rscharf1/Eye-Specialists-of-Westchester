@@ -1,0 +1,14 @@
+.container.amd {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.amd li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.amd {
+        width: 100%; 
+    }
+}

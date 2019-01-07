@@ -1,0 +1,14 @@
+.container.chalazion {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.chalazion li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.chalazion {
+        width: 100%; 
+    }
+}

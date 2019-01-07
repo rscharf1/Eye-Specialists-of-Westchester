@@ -1,0 +1,14 @@
+.container.glaucoma {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.glaucoma li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.glaucoma {
+        width: 100%; 
+    }
+}

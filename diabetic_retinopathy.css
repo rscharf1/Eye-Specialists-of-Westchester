@@ -1,0 +1,14 @@
+.container.diabetic-retinopathy {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.diabetic-retinopathy li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.diabetic-retinopathy {
+        width: 100%; 
+    }
+}

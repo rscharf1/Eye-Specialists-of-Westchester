@@ -1,0 +1,14 @@
+.container.cataract {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.cataract li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.cataract {
+        width: 100%; 
+    }
+}
