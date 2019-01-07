@@ -1,14 +1,12 @@
-.container-fluid img {
+.container-fluid img.header {
     width: 250px; 
     height: auto; 
     margin-left: 25%;
 }
 
-.container-fluid:last-of-type .col-sm-6 {
-}
 
 @media screen and ( max-width: 500px) {
-    .container-fluid img {
+    .container-fluid img.header {
         margin-left: 15%; 
     }
 }

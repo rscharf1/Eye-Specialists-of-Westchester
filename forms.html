@@ -1,0 +1,54 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- jquery - USE MINIFIED VERSION FOR FULL SITE -->
+    <script src="jquery-3.3.1.js"></script>
+
+
+    <!-- Might have to load header, then middle content, then footer -->
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+
+    <title>ESOW | Home</title>
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <div class="container forms">
+        <h5>Downloadable Forms</h5>
+        <a href="patienthistoryquestionnaire.pdf">Patient History Questionaire</a><br><br>
+        <p>Please fill out our the patient history questionnaire and bring it with you on your next visit. This form is required for
+        all new patients and yearly for existing patients.</p>
+
+    </div>
+    <div id="footer"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+        }); 
+    </script>
+
+</body>
+
+</html>

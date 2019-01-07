@@ -1,0 +1,18 @@
+.container.billing_insurance h5{
+    font-size: 20px; 
+}
+
+.container.billing_insurance p {
+    font-size: 16px; 
+}
+
+.container.billing_insurance {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+@media screen and ( max-width: 500px) {
+    .container.billing_insurance {
+        width: 100%; 
+    }
+}

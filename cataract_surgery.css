@@ -1,0 +1,14 @@
+.container.cataract-surgery {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+.container.cataract-surgery li{
+    margin-top: 5px;
+}
+
+@media screen and ( max-width: 500px) {
+    .container.cataract-surgery {
+        width: 100%; 
+    }
+}

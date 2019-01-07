@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.container h4 {
+    font-size: 25px; 
+}
+
+h4 + p {
+    font-size: 17px; 
+}
+
+.container.home {
+    border: 1px solid black; 
+    width: 80%; 
+}
+
+@media screen and ( max-width: 500px) {
+    .container.home {
+        width: 100%; 
+    }
+}
