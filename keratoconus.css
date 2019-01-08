@@ -12,3 +12,15 @@
         width: 100%; 
     }
 }
+
+.images {
+    width: 100%; 
+}
+.images img {
+    margin-left: 5%; 
+    width: 40%; 
+}
+
+.images img:first-of-type {
+    margin-left: 0; 
+}

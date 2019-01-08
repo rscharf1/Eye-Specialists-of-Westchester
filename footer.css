@@ -17,5 +17,14 @@ li{
 }
 
 .container.footer ul {
+    font-size: 14px; 
+}
+
+.container.footer address {
     font-size: 15px; 
+}
+
+h5 {
+    font-size: 18px; 
+    color: green;
 }
