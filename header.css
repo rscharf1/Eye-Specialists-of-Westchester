@@ -1,16 +1,29 @@
 .container-fluid img.header {
     width: 250px; 
     height: auto; 
-    margin-left: 25%;
+    margin-top: -20px; 
 }
 
+.container-fluid .text-center p {
+    margin-top: -30px; 
+
+}
 
 @media screen and ( max-width: 500px) {
     .container-fluid img.header {
         margin-left: 15%; 
     }
+
+    .desktop-tel {
+        display: none; 
+    }
 }
 
+@media screen and ( min-width: 500px) {
+    .mobile-tel {
+        display: none; 
+    }
+}
 address {
     font-size: 20px; 
 }
@@ -18,4 +31,12 @@ address {
 .page-header {
     color: #0089E5; 
     font-size: 22px; 
+}
+
+.lead {
+    color: black !important;
+}
+
+nav p, nav ul {
+    font-size: 14px !important; 
 }
